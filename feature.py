@@ -27,7 +27,7 @@ def process_note(note, prompt):
                 ),
             )
             return NoteResult.model_validate_json(response.text)
-                except Exception as e:
+        except Exception as e:
             print(f"Attempt {attempt} failed: {str(e)[:150]}")
             if "429" in str(e):
                 print("Daily quota used up. Stopping.")
