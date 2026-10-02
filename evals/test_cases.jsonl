@@ -1,0 +1,10 @@
+{"id": 1, "note": "cust called angry!! app crashed 3 times today, wants refund asap", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "easy"}
+{"id": 2, "note": "thx for the quick help, all working now", "expected_sentiment": "positive", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 3, "note": "asked abt pricing for team plan, no rush, maybe next month", "expected_sentiment": "neutral", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 4, "note": "quick repair needed, almnost by evening, emergency", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "hard"}
+{"id": 5, "note": "this is the THIRD time my invoice is wrong!!! fix it today or im cancelling", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "easy"}
+{"id": 6, "note": "love the new dashboard but i got charged twice this month, pls refund one", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "medium"}
+{"id": 7, "note": "something is off with my account, not sure what, can someone look when free", "expected_sentiment": "neutral", "expected_urgency": "low", "difficulty": "hard"}
+{"id": 8, "note": "sir naa order inka raaledu, 5 days aindi, please update ivvandi", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "hard"}
+{"id": 9, "note": "Hi team, just letting you know our payroll run is tomorrow morning and the export button shows an error. Thanks!", "expected_sentiment": "neutral", "expected_urgency": "high", "difficulty": "hard"}
+{"id": 10, "note": "Thank you for your help last week. Unfortunately the same login issue is back, third time now. I would appreciate a permanent fix.", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "hard"}
