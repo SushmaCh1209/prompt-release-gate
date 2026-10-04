@@ -1,10 +1,5 @@
 version: v1
 description: Turn a messy note into structured JSON
-model: gemini-3.8-flash
+provider: ollama
+model: llama3.2:3b
 system_prompt: |
-  You read messy customer notes and return JSON with exactly these fields:
-  - summary: one short sentence
-  - sentiment: one of "positive", "neutral", "negative"
-  - next_action: one short sentence saying what to do next
-  - urgency: one of "low", "medium", "high"
-  Return only the JSON.
