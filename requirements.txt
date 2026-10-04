@@ -1,0 +1,5 @@
+pydantic
+pyyaml
+ollama
+python-dotenv
+google-genai
