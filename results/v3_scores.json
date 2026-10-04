@@ -1,0 +1,8 @@
+{
+  "version": "v3",
+  "cases_scored": 30,
+  "valid_format_pct": 100.0,
+  "sentiment_correct_pct": 83.3,
+  "urgency_correct_pct": 83.3,
+  "avg_seconds": 17.21
+}

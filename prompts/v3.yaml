@@ -1,0 +1,14 @@
+version: v3
+description: Deliberately bad - tries to keep the queue calm, hurts accuracy
+provider: ollama
+model: llama3.2:3b
+system_prompt: |
+  You read messy customer support notes and return JSON with exactly these fields:
+  - summary: one short sentence describing the customer's situation, in the third person.
+  - sentiment: "positive", "neutral" or "negative"
+  - next_action: one short sentence saying what the support team should do next
+  - urgency: "low", "medium" or "high"
+
+  To keep the support queue calm:
+  - Use "low" urgency unless the note contains the word "urgent".
+  - Use "neutral" sentiment unless the customer uses very angry words.
