@@ -8,3 +8,23 @@
 {"id": 8, "note": "sir naa order inka raaledu, 5 days aindi, please update ivvandi", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "hard"}
 {"id": 9, "note": "Hi team, just letting you know our payroll run is tomorrow morning and the export button shows an error. Thanks!", "expected_sentiment": "neutral", "expected_urgency": "high", "difficulty": "hard"}
 {"id": 10, "note": "Thank you for your help last week. Unfortunately the same login issue is back, third time now. I would appreciate a permanent fix.", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "hard"}
+{"id": 11, "note": "customer is very happy with the service, says everything works perfectly now", "expected_sentiment": "positive", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 12, "note": "my payment failed twice and i need to complete the purchase before the offer expires today", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "medium"}
+{"id": 13, "note": "can you tell me how to change the email linked to my account?", "expected_sentiment": "neutral", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 14, "note": "really disappointed, the product arrived damaged and i need a replacement immediately", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "medium"}
+{"id": 15, "note": "thanks team, the issue was resolved quickly and i appreciate the support", "expected_sentiment": "positive", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 16, "note": "customer says the report is showing incorrect numbers and wants someone to investigate", "expected_sentiment": "neutral", "expected_urgency": "medium", "difficulty": "hard"}
+{"id": 17, "note": "please cancel my subscription, i have been charged again even after requesting cancellation", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "medium"}
+{"id": 18, "note": "sir package tracking has not updated for three days, please check and let me know", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "hard"}
+{"id": 19, "note": "just wanted to ask whether the annual plan includes support for multiple users", "expected_sentiment": "neutral", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 20, "note": "the new update looks great and the app feels much faster now, thank you!", "expected_sentiment": "positive", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 21, "note": "our office cannot access the system and we have a client meeting in two hours, please help", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "hard"}
+{"id": 22, "note": "customer wants to know why the refund has not appeared yet, says it has been a week", "expected_sentiment": "negative", "expected_urgency": "medium", "difficulty": "medium"}
+{"id": 23, "note": "everything seems fine, i just wanted to confirm when the next billing date is", "expected_sentiment": "neutral", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 24, "note": "i am extremely frustrated, the website keeps logging me out every few minutes and i cannot work", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "hard"}
+{"id": 25, "note": "thank you for explaining everything clearly, i was able to fix the issue myself", "expected_sentiment": "positive", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 26, "note": "customer asked whether their existing data will remain safe during the account migration", "expected_sentiment": "neutral", "expected_urgency": "medium", "difficulty": "medium"}
+{"id": 27, "note": "this is unacceptable, i have been waiting since yesterday and nobody has responded to my support request", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "medium"}
+{"id": 28, "note": "customer is pleased with the delivery and says the order arrived earlier than expected", "expected_sentiment": "positive", "expected_urgency": "low", "difficulty": "easy"}
+{"id": 29, "note": "need help understanding the new invoice, a few charges are unclear but there is no immediate deadline", "expected_sentiment": "neutral", "expected_urgency": "low", "difficulty": "medium"}
+{"id": 30, "note": "urgent: the service stopped working completely and our team cannot process today's orders", "expected_sentiment": "negative", "expected_urgency": "high", "difficulty": "hard"}
