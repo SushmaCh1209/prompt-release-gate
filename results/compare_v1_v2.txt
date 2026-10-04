@@ -1,50 +1,50 @@
-﻿=== Scores: v1 vs v2 ===
-Valid format         v1:  100.0   v2:  100.0   change: +0.0
-Sentiment correct    v1:   60.0   v2:   93.3   change: +33.3
-Urgency correct      v1:   70.0   v2:   93.3   change: +23.3
-Seconds per note     v1:  19.97   v2:   15.9   change: -4.1
+﻿=== Scores: v1 (old) vs v2 (new) ===
+Valid format         old:  100.0   new:  100.0   change: +0.0
+Sentiment correct    old:   60.0   new:   93.3   change: +33.3
+Urgency correct      old:   70.0   new:   93.3   change: +23.3
+Seconds per note     old:  19.97   new:   15.9   change: -4.1
 
-=== Got WORSE in v2: 1 ===
+=== Got WORSE in new: 1 ===
 Note 9 (sentiment): Hi team, just letting you know our payroll run is tomorrow morning and
-   expected: neutral/high   v1: neutral/low   v2: negative/medium
+   expected: neutral/high   old: neutral/low   new: negative/medium
 
-=== Got BETTER in v2: 18 ===
+=== Got BETTER in new: 18 ===
 Note 6 (sentiment): love the new dashboard but i got charged twice this month, pls refund 
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 6 (urgency): love the new dashboard but i got charged twice this month, pls refund 
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 8 (sentiment): sir naa order inka raaledu, 5 days aindi, please update ivvandi
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 8 (urgency): sir naa order inka raaledu, 5 days aindi, please update ivvandi
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 10 (sentiment): Thank you for your help last week. Unfortunately the same login issue 
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 10 (urgency): Thank you for your help last week. Unfortunately the same login issue 
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 12 (sentiment): my payment failed twice and i need to complete the purchase before the
-   expected: negative/high   v1: neutral/high   v2: negative/high
+   expected: negative/high   old: neutral/high   new: negative/high
 Note 16 (urgency): customer says the report is showing incorrect numbers and wants someon
-   expected: neutral/medium   v1: negative/low   v2: negative/medium
+   expected: neutral/medium   old: negative/low   new: negative/medium
 Note 18 (sentiment): sir package tracking has not updated for three days, please check and 
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 18 (urgency): sir package tracking has not updated for three days, please check and 
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 20 (sentiment): the new update looks great and the app feels much faster now, thank yo
-   expected: positive/low   v1: neutral/low   v2: positive/low
+   expected: positive/low   old: neutral/low   new: positive/low
 Note 21 (sentiment): our office cannot access the system and we have a client meeting in tw
-   expected: negative/high   v1: neutral/high   v2: negative/high
+   expected: negative/high   old: neutral/high   new: negative/high
 Note 22 (sentiment): customer wants to know why the refund has not appeared yet, says it ha
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 22 (urgency): customer wants to know why the refund has not appeared yet, says it ha
-   expected: negative/medium   v1: neutral/low   v2: negative/medium
+   expected: negative/medium   old: neutral/low   new: negative/medium
 Note 24 (sentiment): i am extremely frustrated, the website keeps logging me out every few 
-   expected: negative/high   v1: neutral/low   v2: negative/high
+   expected: negative/high   old: neutral/low   new: negative/high
 Note 24 (urgency): i am extremely frustrated, the website keeps logging me out every few 
-   expected: negative/high   v1: neutral/low   v2: negative/high
+   expected: negative/high   old: neutral/low   new: negative/high
 Note 26 (sentiment): customer asked whether their existing data will remain safe during the
-   expected: neutral/medium   v1: positive/high   v2: neutral/low
+   expected: neutral/medium   old: positive/high   new: neutral/low
 Note 27 (sentiment): this is unacceptable, i have been waiting since yesterday and nobody h
-   expected: negative/high   v1: neutral/high   v2: negative/high
+   expected: negative/high   old: neutral/high   new: negative/high
 
 === GATE RESULT ===
 PASS: v2 did not get worse beyond the allowed limits.

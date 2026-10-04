@@ -1,0 +1,24 @@
+﻿=== Scores: v2 (old) vs v3 (new) ===
+Valid format         old:  100.0   new:  100.0   change: +0.0
+Sentiment correct    old:   93.3   new:   83.3   change: -10.0
+Urgency correct      old:   93.3   new:   83.3   change: -10.0
+Seconds per note     old:   15.9   new:  17.21   change: +1.3
+
+=== Got WORSE in new: 6 ===
+Note 6 (urgency): love the new dashboard but i got charged twice this month, pls refund 
+   expected: negative/medium   old: negative/medium   new: negative/low
+Note 8 (urgency): sir naa order inka raaledu, 5 days aindi, please update ivvandi
+   expected: negative/medium   old: negative/medium   new: negative/high
+Note 10 (urgency): Thank you for your help last week. Unfortunately the same login issue 
+   expected: negative/medium   old: negative/medium   new: negative/high
+Note 13 (sentiment): can you tell me how to change the email linked to my account?
+   expected: neutral/low   old: neutral/low   new: positive/low
+Note 23 (sentiment): everything seems fine, i just wanted to confirm when the next billing 
+   expected: neutral/low   old: neutral/low   new: positive/low
+Note 26 (sentiment): customer asked whether their existing data will remain safe during the
+   expected: neutral/medium   old: neutral/low   new: positive/low
+
+=== Got BETTER in new: 0 ===
+
+=== GATE RESULT ===
+FAIL: sentiment accuracy dropped too much; urgency accuracy dropped too much
